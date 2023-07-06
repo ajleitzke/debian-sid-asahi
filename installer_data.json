@@ -1,8 +1,8 @@
 {
     "os_list": [
         {
-            "name": "Debian bookworm (testing) packaged by Thomas Glanzmann",
-            "default_os_name": "Debian",
+            "name": "Debian Sid",
+            "default_os_name": "Debian GNU/Linux",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
             "package": "debian-base.zip",
