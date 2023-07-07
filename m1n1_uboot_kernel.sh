@@ -32,7 +32,7 @@ build_linux()
         test -d linux || git clone https://github.com/AsahiLinux/linux
         cd linux
         git fetch -a -t
-        git reset --hard asahi-6.3-7;
+        git reset --hard asahi-6.3-10;
         cat ../../config.txt > .config
         make LLVM=${CLANG_VERSION} rustavailable
         make LLVM=${CLANG_VERSION} olddefconfig
