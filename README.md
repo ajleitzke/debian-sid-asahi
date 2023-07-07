@@ -10,8 +10,8 @@ EFI patch. As a result it will always pick the first ESP partition. This can be
 problematic if you're using multiple ESP partitions for example when having
 multiple Linux and BSD installations.
 
-# Artefacts
-If you don't want to use the prebuild artefacts, you can build them yourself
+# Artifacts
+If you don't want to use the prebuild artifacts, you can build them yourself
 using the following scripts:
 
         - prepare_rust.sh - Prepares a rust installation suitable for kernel compilation
